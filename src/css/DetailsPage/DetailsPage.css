@@ -1,0 +1,260 @@
+.details-page-modal {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: block;
+    z-index: 400;
+    background: white;
+}
+
+.details-page {
+    padding-top: 2.5rem;
+}
+
+.details-page h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.details-page h1 button {
+    background: transparent;
+    outline: 0;
+    border: 0;
+}
+
+.details-page h1 span {
+    font-weight: 300;
+}
+
+.cart-details {
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.cart-details-left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.arrow-icon-container {
+    width: 48px;
+    height: 48px;
+    background: #E80E0F;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.arrow-icon {
+    color: white;
+    font-size: 20px;
+}
+
+.cart-details-img {
+    width: 287.99px;
+    height: 297px;
+    overflow: hidden;
+}
+
+.cart-details-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.cart-details-right-title {
+    width: 430px;
+    height: fit-content;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    margin-bottom: 16px;
+    overflow: visible;
+}
+
+.cart-details-right-title::after {
+    content: "";
+    width: 430px;
+    height: 3px;
+    background-color: #000000;
+    position: absolute;
+    bottom: -4px;
+}
+
+.cart-details-right-desc {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.more-details {
+    position: relative;
+    margin-top: 16px;
+}
+
+.more-details a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0.07em;
+    text-decoration: underline;
+}
+
+.item-price {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 16px;
+}
+
+.cart-details-right-line {
+    width: 430px;
+    height: 1px;
+    background-color: #D5D5D5;
+    margin-top: 20px;
+}
+
+.item-size {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.item-size h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.07em;
+}
+
+.item-size span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+}
+
+.cart-details-right button {
+    width: 430px;
+    height: 40px;
+    background: #E80E0F;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 113px;
+    gap: 10px;
+    overflow: hidden;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+
+
+.details-page-tab-title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    position: relative;
+}
+
+.details-page-tab-title::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #D5D5D5;
+}
+
+.details-page-tab-title div {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    position: relative !important;
+    width: auto;
+    cursor: default;
+}
+
+.activeaItemsTab {
+    color: #E80E0F !important;
+}
+
+.details-page-tab-title div.activeaItemsTab::before {
+    content: "";
+    position: absolute !important;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #E80E0F !important;
+    z-index: 20;
+    margin: auto;
+}
+
+
+
+/* ART TAB */
+.art-description-tab {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.art-description-tab h1 {
+    margin-top: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.art-description-tab span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #888888;
+}
+
+.also-available {
+    margin-top: 5rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+}

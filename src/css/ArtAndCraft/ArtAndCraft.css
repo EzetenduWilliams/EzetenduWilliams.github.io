@@ -1,0 +1,15 @@
+
+
+.art-craft-main {
+    width: 100vw;
+    height: 90vh;
+    margin-top: 10vh;
+    background-image: url("../../assets/art-main-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

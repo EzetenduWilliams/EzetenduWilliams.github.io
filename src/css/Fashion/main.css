@@ -1,0 +1,144 @@
+.main {
+    background-image: url("../../assets/fashion-main-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    /* padding-top: 210px; */
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+    width: 100vw;
+    height: 90vh;
+    margin-top: 10vh;
+}
+
+.main h1 {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.main h4 {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+}
+
+#fashionSearchForm div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 17px 16px 17px 20px;
+    gap: 13px;
+    width: 500px;
+    height: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.06);
+    backdrop-filter: blur(12px);
+    overflow: hidden;
+}
+
+#fashionSearchForm div .form-search-icon {
+    width: 18px;
+    height: 18px;
+    color: #A1A1AA;
+    width: 5%;
+}
+
+#fashionSearchForm div input {
+    width: 95%;
+    outline: none;
+    border: none;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+#fashionSearchForm button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+    width: 500px;
+    height: 40px;
+    background: #E80E0F;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: right;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+    overflow: hidden;
+}
+
+.achievements {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 50px;
+}
+
+.achievements span h1 {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    color: #000;
+}
+
+.achievements span {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #000;
+}
+
+/* ================================ */
+.category-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.popular-categories-section h1 {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 35px;
+    color: #151518;
+}
+
+.items-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.2rem;
+}
+
